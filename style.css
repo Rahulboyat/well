@@ -100,7 +100,7 @@ border: 1px solid red!important;
 
 
 .footer_container {
-    background-color: white;
+    background-color: #e9dede;
 }
 
 .footer ul {
@@ -132,9 +132,10 @@ border: 1px solid red!important;
         position: absolute;
         top: 75px;
         right: 0px;
-        background-color: green;
+        /* background-color: rgba(0, 0, 0, 0.6); */
+        background-color: white;
         width: 75vw;
-        height: 100vh;
+        height: 70vh;
         display: none;  
         flex-direction: column;
         padding-top: 20px;
@@ -142,7 +143,7 @@ border: 1px solid red!important;
 
     nav .menu_link li a {
         margin-top: 12px;
-        color: red;
+        /* color: white !important; */
     }
 
     .nav .menu_link li {
