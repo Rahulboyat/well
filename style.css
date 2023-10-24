@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+    background-color: #ffffff;
+}
+
+.nav .menu_link {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav .menu_link li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.nav .menu_link a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    z-index: 999;
+}
+
+.benifit_item {
+    padding: 10px 15px;
+}
+
+.benifit_conn {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.fav_text {
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.fav_text p {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* .slide_border{
+border: 1px solid red!important;
+} */
+
+.splide__slide {
+    /* border: 1px solid black; */
+    /* box-shadow: 0px 0px 3px rgb(119, 111, 111); */
+    /* margin: 3px 0px; */
+    /* inset: 4px; */
+}
+
+.smar_text_conn {
+    text-align: center;
+    padding: 0px 13px;
+}
+
+.smar_text_conn p {
+    /* text-align: center; */
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+.reviews-conn {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    text-transform: capitalize;
+}
+
+
+.ret_conn i {
+    color: goldenrod;
+}
+
+
+.footer_container {
+    background-color: white;
+}
+
+.footer ul {
+    padding: 0px;
+    margin-top: 12px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_4 p {
+    margin: 0px;
+    color: black;
+}
+
+.nav img {
+    width: 160px;
+    height: 65px;
+}
+
+@media only screen and (max-width: 640px) {
+    .nav .menu_link {
+        position: absolute;
+        top: 75px;
+        right: 0px;
+        background-color: green;
+        width: 75vw;
+        height: 100vh;
+        display: none;  
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    nav .menu_link li a {
+        margin-top: 12px;
+        color: red;
+    }
+
+    .nav .menu_link li {
+        margin: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 640px) {
+    .toggle{
+        display: none;
+    }
+}
